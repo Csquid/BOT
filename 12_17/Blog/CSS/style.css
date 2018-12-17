@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px;
+    text-align: center;
+    background: #f0db4f;
+    /* background-image: url("../Image/rainbow.gif"); */
+    color: black;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav #login {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+/* Left and right column */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.left {
+    padding-left: 5%;
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    padding-left: 5%;
+    width: 75%;
+}
+
+.column.right {
+    padding-right: 5%;
+    width: 25%;
+}
+
+/* .column.right {
+    padding-right: 2%;
+    width: 25%;
+} */
+
+/* Fake image */
+.mainImage {
+    height: 75%;
+    width: 75%;
+    /* background-color: #aaa; */
+    /* width: 50%; */
+    /* padding: 20px; */
+}
+
+.right_image {
+    height: 100%;
+    width: 100%;
+}
+
+#right_image {
+    height: 100%;
+    width: 100%;
+}
+
+#font-red {
+    color: red;
+    font-size: 25px;
+}
+
+#font-monkey {
+    color: brown;
+}
+
+ul.demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: black;
+    /* Green */
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column.left,
+    .column.right,
+    .column.middle {
+        width: 100%;
+    }
+}

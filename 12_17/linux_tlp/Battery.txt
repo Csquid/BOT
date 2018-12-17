@@ -1,0 +1,5 @@
+/sys/class/power_supply/CMB0/energy_full_design             =  72770 [mWh]
+/sys/class/power_supply/CMB0/energy_full                    =  71640 [mWh]
+/sys/class/power_supply/CMB0/energy_now                     =  45180 [mWh]
+/sys/class/power_supply/CMB0/power_now                      =   9060 [mW]
+/sys/class/power_supply/CMB0/status                         = Discharging
